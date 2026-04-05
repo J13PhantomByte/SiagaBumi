@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 SiagaBumi
 
-## Getting Started
+**SiagaBumi** adalah platform informasi bencana berbasis web yang menyediakan data gempa bumi secara real-time di Indonesia dengan tampilan yang sederhana, cepat, dan mudah dipahami oleh semua kalangan.
 
-First, run the development server:
+> ⚡ "Info Bencana Cepat, Jelas, Tanpa Ribet"
 
-```bash
+---
+
+## 🎯 Tujuan Project
+
+Project ini dibuat untuk:
+- Menyediakan informasi gempa secara real-time
+- Membantu masyarakat memahami kondisi bencana dengan cepat
+- Menjadi platform yang mudah digunakan oleh semua umur
+- Menjadi solusi alternatif yang lebih sederhana dari layanan resmi seperti BMKG
+
+---
+
+## ✨ Fitur Utama
+
+- 🌐 **Realtime Earthquake Info**  
+  Menampilkan data gempa terbaru (magnitudo, lokasi, waktu, kedalaman)
+
+- 🗺️ **Peta Interaktif**  
+  Visualisasi lokasi gempa di Indonesia
+
+- 📊 **Riwayat Gempa**  
+  List gempa terbaru dalam format sederhana dan mudah dibaca
+
+- 🚨 **Alert System UI**  
+  Tampilan peringatan berbasis warna (aman, waspada, bahaya)
+
+- 📚 **Edukasi Bencana**  
+  Panduan sebelum, saat, dan setelah gempa
+
+---
+
+## 🛠️ Tools & Teknologi
+
+- 🤖 **Gemini (Google AI Studio)**  
+  Digunakan untuk membantu generate ide, struktur, dan kode
+
+- ⚛️ **Next.js**  
+  Framework React untuk performa tinggi dan rendering optimal
+
+- 🎨 **Tailwind CSS**  
+  Untuk styling cepat dan responsive design
+
+- 🌍 **API BMKG**  
+  Sumber data gempa real-time
+
+---
+
+## 🧠 Prinsip & Teori Desain
+
+Project ini menggunakan beberapa prinsip desain:
+
+- **Visual Hierarchy** → Fokus pada informasi penting
+- **Color Theory (Semantic Colors)** → Warna sebagai indikator kondisi
+- **Accessibility** → Mudah dibaca semua kalangan
+- **Mobile-First Design** → Optimal di HP
+- **Fitts’s Law** → Tombol mudah diakses
+- **Minimalism** → Tampilan sederhana & cepat
+- **Design System** → Konsistensi UI
+
+---
+
+## ⚡ Performance & Optimization
+
+- 🚀 Fast loading (optimized untuk device low-end)
+- 📱 Fully responsive (mobile, tablet, desktop)
+- ⚙️ Lazy loading untuk komponen berat
+- 🌐 CDN-ready
+
+---
+
+## 🔐 Security
+
+- HTTPS Ready
+- Secure API handling
+- Input sanitization
+- No sensitive data exposure
+
+---
+
+## 📦 Instalasi & Menjalankan Project
+
+Clone repository:
+
+```bash 
+git clone https://github.com/username/siagabumi.git
+cd siagabumi 
+
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+http://localhost:3000

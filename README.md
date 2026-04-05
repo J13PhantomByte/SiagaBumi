@@ -37,7 +37,7 @@ Project ini dibuat untuk:
 
 ## 🛠️ Tools & Teknologi
 
-- 🤖 **Gemini (Google AI Studio)**  
+- 🤖 **Gemini**  
   Digunakan untuk membantu generate ide, struktur, dan kode
 
 - ⚛️ **Next.js**  
